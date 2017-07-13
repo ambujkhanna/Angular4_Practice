@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app works!';
 
+toggle (){
+//this.show = !this.show;
+alert('sss');
+}
+
+}
 
 
