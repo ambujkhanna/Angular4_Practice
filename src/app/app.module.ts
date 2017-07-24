@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { innerComponent } from "./inner/inner.component";
+import { innerComponent } from './inner/inner.component';
 
 @NgModule({
   declarations: [

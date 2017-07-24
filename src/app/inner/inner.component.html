@@ -1,4 +1,25 @@
 <p [title]="titleText">
+{{title}}
+</p>
+
+<!-- <input type="text" (input)="clickMe($event)" /> -->
+<hr/>
+<h2>event binding and ngModel </h2>
+<button [disabled]="!allowclick" (click)="onClicked()"> Click Me</button>
+<input type="text" [(ngModel)]="EnteredData" placeholder="Typing..."/>
+<p>{{ShowData}}</p>
+
+<hr/>
+<h2>NgStyle</h2>
+<p [ngStyle]="{backgroundColor:getColor()}">The status is {{currentStatus}} -- {{getColor()}}</p>
+
+<hr/>
+<h2>*ngFor</h2>
+<button (click)="addItems()"> Click Me</button>
+<input type="text" [(ngModel)]="itemName" placeholder="Typing..."/>
+<div *ngFor="let eachItem of repeatItems">
+{{itemName}}
+{{eachItem}}
     {{title}}
 </p>
 
