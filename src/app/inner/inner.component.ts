@@ -1,10 +1,10 @@
 
-import {Component} from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-    selector : 'app-inner',
-    templateUrl : './inner.component.html',
-    styles : ['div, span{color:#666; font-size:14px;padding:5px 0}']
+    selector: 'app-inner',
+    templateUrl: './inner.component.html',
+    styles: ['div, span{color:#666; font-size:14px;padding:5px 0}']
 })
 
 export class innerComponent {
@@ -15,15 +15,15 @@ export class innerComponent {
     view = "one"
     colors = ['red', 'green', 'blue', 'pink', 'yellow'];
 
-    items=[
+    items = [
         {
-            name :'Mark',age:'25',gender:'M'
-        },
-         {
-            name :'Steve',age:'28',gender:'M'
+            name: 'Mark', age: '25', gender: 'M'
         },
         {
-            name :'Robbin',age:'32',gender:'M'
+            name: 'Steve', age: '28', gender: 'M'
+        },
+        {
+            name: 'Robbin', age: '32', gender: 'M'
         }
     ]
 

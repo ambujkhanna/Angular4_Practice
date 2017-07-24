@@ -1,5 +1,5 @@
 <p [title]="titleText">
-{{title}}
+    {{title}}
 </p>
 
 <h1 class="md-col-12" *ngIf="showFlag"> showFlag is {{showFlag}}</h1>
@@ -7,9 +7,9 @@
 <div *ngIf="!showFlag"> show Flag is {{showFlag}}</div>
 
 <div *ngFor="let color of colors; let i = index;let even = even;let odd = odd;let first = first;let last = last;">
-<div>
-   <span> {{i}} This is last {{color}}</span>
-</div>
+    <div>
+        <span> {{i}} This is last {{color}}</span>
+    </div>
 </div>
 
 <h2>For Loop</h2>
@@ -23,4 +23,3 @@
     </div>-->
 
 </div>
-

@@ -8,7 +8,7 @@ import { innerComponent } from "./inner/inner.component";
 
 @NgModule({
   declarations: [
-    AppComponent,innerComponent
+    AppComponent, innerComponent
   ],
   imports: [
     BrowserModule,
