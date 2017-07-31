@@ -56,4 +56,4 @@ export class innerComponent{
     addItems(){
         this.repeatItems.push(this.eachItem);
     }
-    
+}
