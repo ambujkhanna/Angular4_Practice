@@ -15,13 +15,13 @@
 
 <hr/>
 <h2>*ngFor</h2>
-<button (click)="addItems()"> Click Me</button>
+<button (click)="addItems()"> Click Me</button> 
 <input type="text" [(ngModel)]="itemName" placeholder="Typing..."/>
 <div *ngFor="let eachItem of repeatItems">
 {{itemName}}
 {{eachItem}}
     {{title}}
-</p>
+</div>
 
 <h1 class="md-col-12" *ngIf="showFlag"> showFlag is {{showFlag}}</h1>
 <h1> ngIF condition</h1>
@@ -44,3 +44,4 @@
     </div>-->
 
 </div>
+

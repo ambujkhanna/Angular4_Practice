@@ -56,4 +56,9 @@ export class innerComponent{
     addItems(){
         this.repeatItems.push(this.eachItem);
     }
+<<<<<<< HEAD
     
+}
+=======
+}
+>>>>>>> cae5a08187c7915bcc1ff00bb17d0f8169cdb69a
